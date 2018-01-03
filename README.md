@@ -14,4 +14,7 @@ This project enables control of multiple sets of RGB LED strip lights via API.  
 <img src="http://ilovelamp.bitnamiapp.com/wordpress/wp-content/uploads/MP1-LED-Controller.png"/ height="300"></br>
 <b>Description</b></br>
 Power is 12v for the LED Strip and Huzzah is powered by USB (can also be powered directly via 3.7v LiPo).
-Setup Huzzah as per <a href="https://learn.adafruit.com/adafruit-feather-huzzah-esp8266">Adafruit guide</a> and set up tp load code from Arduino IDE.
+Setup Huzzah as per <a href="https://learn.adafruit.com/adafruit-feather-huzzah-esp8266">Adafruit guide</a> and set up to load code from Arduino IDE.
+
+<b>Code</b></br>
+Load mp1_lights.ino to your Adafruit Feather Huzzah - make sure the set the WiFi credentials in config.h
